@@ -151,14 +151,6 @@
 }
 /* ------------------------MEDIA QUERRY RESPONSIVE------------------------------- */
 @media only screen and (max-width: 576px) {
-  .daily-quote {
-    width: 400px;
-    left: calc((50% - 200px) + 50px);
-    z-index: -1;
-    padding: 0 50px;
-    box-sizing: border-box;
-    text-align: center;
-  }
   .time {
     width: 400px;
     left: calc((50% - 200px) + 50px);
@@ -185,6 +177,14 @@
     width: 900px;
     margin-top: 15%;
     height: 300px;
+  }
+  .daily-quote {
+    width: 400px;
+    left: calc((50% - 200px) + 50px);
+    z-index: -1;
+    padding: 0 50px;
+    box-sizing: border-box;
+    text-align: center;
   }
   .footer-line {
     width: 300px;
