@@ -151,10 +151,11 @@
 /* ------------------------MEDIA QUERRY RESPONSIVE------------------------------- */
 @media only screen and (max-width: 576px) {
   .daily-quote {
-    width: 300px;
-    left: calc((50% - 150px) + 30px);
+    width: 400px;
+    left: calc((50% - 200px) + 50px);
     z-index: -1;
-    padding: 0 20px;
+    padding: 0 50px;
+    box-sizing: border-box;
     text-align: center;
   }
   .time {
