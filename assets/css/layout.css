@@ -32,6 +32,9 @@
   margin: 20px 17% 0;
 }
 /* ----------NAV-ITEMS---------- */
+.nav-names:hover{
+  color: #02577a;
+}
 #nav-container .nav-list {
   width: 100%;
   padding: 50px 0 50px 30px;
@@ -80,6 +83,7 @@
   position: absolute;
   bottom: 10px;
   left: calc(50% - 250px);
+  z-index: -1;
 }
 /* ----------MAIN AND PIC---------- */
 .bg-img {
@@ -103,6 +107,7 @@
   overflow-wrap: break-word;
   display: flex;
   align-items: center;
+  z-index: -1;
 }
 .greeting h2 {
   font-size: 56px;
@@ -118,6 +123,7 @@
   right: 10%;
   top: 50px;
   border-radius: 25px;
+  z-index: -1;
 }
 .time span {
   display: block;
@@ -139,6 +145,7 @@
   position: absolute;
   box-sizing: border-box;
   overflow-wrap: break-word;
+  z-index: -1;
 }
 /* ----------UNIVERSAL CENTER FLEX---------- */
 .centering {
@@ -163,7 +170,6 @@
     left: calc((50% - 200px) + 70px);
     top: 20%;
     width: 300px;
-    z-index: -1;
   }
   .greeting h2 {
     font-size: 30px;
@@ -178,7 +184,6 @@
   .daily-quote {
     width: 400px;
     left: calc((50% - 200px) + 50px);
-    z-index: -1;
     padding: 0 50px;
     box-sizing: border-box;
     text-align: center;
@@ -188,6 +193,5 @@
   }
   .footer {
     left: calc((50% - 150px) + 50px);
-    z-index: -1;
   }
 }
